@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="694" started-at="2021-11-22T15:38:14 IST" finished-at="2021-11-22T15:38:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="694" started-at="2021-11-22T15:38:14 IST" finished-at="2021-11-22T15:38:15 IST">
+      <class name="com.testcases.LoginPageTDD">
+        <test-method status="PASS" signature="validateLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTDD@1d8d30f7]" name="validateLoginTest" duration-ms="9" started-at="2021-11-22T15:38:15 IST" data-provider="getData" finished-at="2021-11-22T15:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="PASS" signature="validateLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTDD@1d8d30f7]" name="validateLoginTest" duration-ms="1" started-at="2021-11-22T15:38:15 IST" data-provider="getData" finished-at="2021-11-22T15:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tom123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+      </class> <!-- com.testcases.LoginPageTDD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
